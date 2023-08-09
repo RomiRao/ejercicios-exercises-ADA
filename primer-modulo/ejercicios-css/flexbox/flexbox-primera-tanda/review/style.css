@@ -1,0 +1,99 @@
+body {
+    background-color: #F5F8FF;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rating-card {
+    font-family: 'Mulish', sans-serif;
+    background-color: rgb(255, 255, 255);
+    max-width: 600px;
+    height: fit-content;
+    padding: 20px 50px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 13px;
+    box-shadow: rgba(65, 65, 147, 0.147) 0px 13px 27px -5px, rgba(35, 52, 120, 0.3) 0px 8px 16px -8px;
+}
+
+.rating-percentaje {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.rating, .rating-stars {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rating {
+    margin: 0;
+}
+
+.rating-stars {
+    background-color: #F5F8FF;
+    padding: 7px;
+    border-radius: 20px;
+}
+
+span {
+    margin: 0 5px;
+}
+
+p {
+    color: rgb(90, 90, 215);
+}
+
+.description {
+    color: black;
+}
+
+.bar-container {
+    width: 170px;
+    height: 15px;
+    margin: 0 10px;
+    border-radius: 15px;
+    background-color: #F5F8FF;
+}
+
+.bar-rating {
+    background-color: #FEB633;
+    border-radius: inherit;
+    height: 100%;
+    margin: ;
+
+}
+
+.one {
+    width: 5%;
+}
+
+.two {
+    width:10%;
+}
+
+.three {
+    width: 15%;
+}
+
+.four {
+    width: 30%;
+}
+
+.five {
+    width: 84%;
+}
+
+img {
+    width: 30px;
+}

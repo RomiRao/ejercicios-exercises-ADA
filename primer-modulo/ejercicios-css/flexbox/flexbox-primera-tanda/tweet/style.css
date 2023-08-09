@@ -1,0 +1,68 @@
+body {
+    background-color: #1DA1F2;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 20px;
+}
+
+.tarjeta-comentario {
+    background-color: white;
+    max-width: 750px;
+    border-radius: 5px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-weight: 500;
+    
+}
+
+.encabezado-tweet {
+    display: flex;
+}
+
+img {
+    max-width: 50px;
+}
+
+.usuario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.etiqueta {
+    font-size: 17px;
+}
+
+.etiqueta, .nombre {
+    font-weight: 700;
+}
+
+.contenido-principal {
+    border-bottom: 2px solid rgb(227, 227, 227);
+}
+
+.fecha {
+    font-weight: 300;
+}
+
+.interacciones {
+    display: flex;
+    justify-content: space-between;
+}
+
+.info-interacciones {
+    display: flex;
+    justify-content: space-between;
+    max-width: 200px;
+}
+
+.retweets, .likes, .botones-interacciones {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+}

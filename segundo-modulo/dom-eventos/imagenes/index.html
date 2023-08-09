@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagenes</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .imagen-chica {
+            height: 100px;
+            cursor: pointer;
+        }
+
+        .imagen-grande {
+            height: 550px;
+            width: 550px;
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin: 15px;
+        }
+
+        #imagen-grande {
+            height: 500px;
+        }
+    </style>
+</head>
+<body>
+    <div class="imagen-grande">
+        <img src="./mononoke.png" alt="ejemplo grande" id="imagen-grande">
+    </div>
+    <div>
+        <img src="./mononoke.png" alt="" class="imagen-chica">
+        <img src="./Untitled_Artwork (4).png" alt="" class="imagen-chica">
+        <img src="./Untitled_Artwork (5).png" alt="" class="imagen-chica">
+    </div>
+    <script>
+        const imagenes = document.getElementsByClassName('imagen-chica');
+        const imagenGrande = document.getElementById('imagen-grande')
+
+        imagenes[0].addEventListener('mouseover', () => {
+            imagenGrande.setAttribute('src', './mononoke.png');
+        });
+
+        imagenes[1].addEventListener('mouseover', () => {
+            imagenGrande.setAttribute('src', './Untitled_Artwork (4).png');
+        });
+
+        imagenes[2].addEventListener('mouseover', () => {
+            imagenGrande.setAttribute('src', './Untitled_Artwork (5).png');
+        });
+    </script>
+</body>
+</html>

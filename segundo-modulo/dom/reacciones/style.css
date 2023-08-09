@@ -1,0 +1,43 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: lightskyblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+main {
+    background-color: white;
+    width: 500px;
+    border-radius: 5px;
+    padding: 10px 15px;
+}
+
+div {
+    border-top: 1px solid lightgray;
+    padding: 10px;
+    margin-bottom: 0;
+}
+
+i {
+    margin: 5px 10px;
+}
+
+span {
+    color: gray;
+}
+
+.fa-thumbs-up {
+    color: rgb(44, 109, 215);
+}
+
+.fa-heart {
+    color: coral;
+}
+
+.fa-face-surprise {
+    color: rgb(181, 181, 0);
+}

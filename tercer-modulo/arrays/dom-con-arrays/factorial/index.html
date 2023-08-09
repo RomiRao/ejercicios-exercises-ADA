@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Factorial</title>
+</head>
+<body>
+    <h3 id="numero"></h3>
+    <script>
+        const numeroFinal = document.getElementById('numero');
+        let numeroElegido = prompt('numero');
+
+        const factorial = num => {
+            let numero = num;
+            for(let i=1; i < num; i++){
+                numero = numero * i
+            }
+            numeroFinal.innerText = numero;
+        }
+
+        factorial(numeroElegido)
+
+    </script>
+</body>
+</html>

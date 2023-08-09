@@ -1,0 +1,58 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+
+.encabezado {
+    background-color: #FFC9FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.navigation-bar{
+    margin: 0;
+    background-color: #9A14EC;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenido-pagina {
+    height: 70%;
+    display: flex;
+    justify-content: center;
+}
+
+.articulo-derecha {
+    background-color: #FF99FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.contenido-principal {
+    background-color: beige;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 3;
+}
+
+.pie-de-pagina {
+    background-color: #CB87F6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}

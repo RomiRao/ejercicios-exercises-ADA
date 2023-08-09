@@ -1,0 +1,57 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    width: 700px;
+    align-self: flex-end;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.list {
+    display: flex;
+}
+
+li {
+    margin: 0 20px;
+}
+
+p {
+    margin: 0 10px;
+}
+
+header {
+    background-color: black;
+    color: white;
+    height: 50px;
+    padding: 0 40px;
+    display: flex;
+    justify-content: flex-end;
+    z-index: 5;
+}
+
+.sub-menu {
+    background-color: black;
+}
+
+.sub-list li{
+    margin: 20px 20px;
+    background-color: black;
+}
+
+.sub-list {
+    display: none;
+}
+
+.sub-menu:hover .sub-list {
+    display: block;
+    position: relative;
+}

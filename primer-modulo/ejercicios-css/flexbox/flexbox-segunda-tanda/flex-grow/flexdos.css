@@ -1,0 +1,20 @@
+body {
+    height: 100vh;
+    background-color: lightseagreen;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.div-externo {
+    background-color: lavender;
+    width: 200px;
+}
+
+.div-medio {
+    background-color: lightcoral;
+    flex-grow: 1;
+}
+
+div {
+    margin: 10px;
+}

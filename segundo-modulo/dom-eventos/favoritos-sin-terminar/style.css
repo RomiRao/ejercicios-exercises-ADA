@@ -1,0 +1,34 @@
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(18, 60, 80);
+    text-align: center;
+}
+
+div {
+    background-color: white;
+    width: 1000px;
+    margin: 10px 0;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.favoritos {
+    width: 500px;
+}
+
+.img-fav {
+    width: 100%;
+}
+
+img {
+    height: 170px;
+    margin: 5px;
+    cursor: pointer;
+}

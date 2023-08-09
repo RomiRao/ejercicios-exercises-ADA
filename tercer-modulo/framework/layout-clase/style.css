@@ -1,0 +1,35 @@
+.container {
+    height: 100vh;
+}
+
+
+.columns {
+    height: 100%;
+}
+
+.column {
+    height: 100vh;
+}
+
+.contiene-gatitos {
+    height: 40%;
+}
+
+.gatito {
+    width: 50%;
+    height: 100%;
+}
+
+.gatito-grande {
+    height: 58%;
+}
+
+.imagen {
+    background-image: url("https://www.elmueble.com/medio/2023/05/22/gatitos_1f740045_230522123911_1000x667.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.gatito-derecha{
+    height: 50%;
+}

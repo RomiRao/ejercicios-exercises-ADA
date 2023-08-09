@@ -1,0 +1,67 @@
+body {
+    background-color: #F2F2F2;
+}
+
+.eventos {
+    background-color: #FFFFFF;
+    width: 640px;
+    margin: 50px auto;
+    font-family: 'Mulish', sans-serif;
+    padding: 40px 60px;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 900;
+    color: #343434;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 25px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 14px;
+    color: blue;
+}
+
+.contenedor-pestanias {
+    margin: 40px 0;
+}
+
+span {
+    color: #989ba7;
+}
+
+.cancelado {
+    color: rgb(242, 117, 130);
+}
+
+.pestanias {
+    margin: 0 10px;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.description {
+    color: #6e7179;
+}
+
+.seleccion {
+    margin: 0;
+    background-color: #343434;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.tarjetas-eventos {
+    padding: 36px 0;
+}
+
+.sin-desc {
+    border-top: 1px solid rgb(243, 243, 243);
+    border-bottom: 1px solid rgb(243, 243, 243);
+};

@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-container {
+    padding: 13px;
+    width: 400px;
+    height: 490px;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
+.form-registro {
+    width: 100%;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.nombre-completo, .email-dni, .set-password, .registrar, .terminos {
+    display: flex;
+    
+}
+
+div {
+    margin: 0 20px 20px 0;
+    width: 100%;
+}
+
+input {
+    height: 40px;
+    width: 100%;
+}
+
+#iddocumento {
+    width: 150px;
+}
+
+#idemail {
+    width: 200px;
+}
+
+.terminos {
+    flex-direction: row-reverse;
+}
+
+.set-password {
+    margin-bottom: 0;
+}
+
+small {
+    margin-top: 0;
+}

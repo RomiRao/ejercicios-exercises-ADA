@@ -1,0 +1,64 @@
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+* {
+    transition: transform, background-color, opacity, 0.3s;
+}
+
+.container {
+    width: 550px;
+    height: 400px;
+    overflow: hidden;
+    position: relative;
+    color: white;
+}
+
+img {
+    width: 700px;
+    height: 100%;
+    transform: translate(-50px,0);
+}
+
+figcaption {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: rgba(49, 19, 19, 0.493);
+    bottom: 0px;
+    left: 0px;
+    padding: 0 30px;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 300;
+    transform: translate(0, 280px);
+}
+
+span {
+    font-weight: 700;
+}
+
+p {
+    transform: translate(0, 250px);
+    opacity: 0;
+    
+}
+
+.container:hover img {
+    transform: translate(1px,0);
+}
+
+.container:hover h2 {
+    transform: translate(0,230px);
+}
+
+.container:hover p {
+    transform: translate(0, 210px);
+    opacity: 1;
+}
+
+.container:hover figcaption {
+    background-color: transparent;
+}

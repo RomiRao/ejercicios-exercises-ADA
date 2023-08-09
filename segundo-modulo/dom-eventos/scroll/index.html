@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scroll</title>
+    <style>
+        body {
+            height: 10000px;
+        }
+    </style>
+</head>
+<body id="body">
+    <script>
+        const body = document.getElementById('body');
+
+        console.log(body.scrollTop)
+
+        window.addEventListener('scroll', () => {
+            console.log(window.scrollY)
+        if (window.scrollY >= 1001 && window.scrollY < 3000) {
+            body.style.backgroundColor = 'rgb(82, 208, 101)';
+        } else if (window.scrollY >= 3001 && window.scrollY < 6500) {
+            body.style.backgroundColor = 'rgb(82, 116, 208)';
+        } else if (window.scrollY >= 6501 && window.scrollY < 8000) {
+            body.style.backgroundColor = 'rgb(208, 162, 82)';
+        } else {
+            body.style.backgroundColor = 'rgb(208, 82, 82)';
+        }
+        
+        });
+    </script>
+</body>
+</html>

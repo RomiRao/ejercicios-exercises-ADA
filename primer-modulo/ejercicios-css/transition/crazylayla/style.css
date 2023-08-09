@@ -1,0 +1,87 @@
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+* {
+    transition: transform, background-color, opacity, 0.3s;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 550px;
+    height: 400px;
+    overflow: hidden;
+    position: relative;
+    color: white;
+}
+
+img {
+    width: 150%;
+    transform: translate(0,-50px);
+}
+
+figcaption {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: rgba(49, 19, 19, 0.493);
+    bottom: 0px;
+    left: 0px;
+    text-align: center;
+    &:after,&:before{
+		content:" ";
+		width:0px;
+		height:0px;
+		position:absolute;
+		border :0px solid #fff;
+		transition:all 1s;
+		}
+	&:after{
+		top:50px;
+		left:50px;
+		border-top:0px solid rgb(255, 255, 255);
+		border-left:0px solid rgb(255, 255, 255);
+	}
+	&:before{
+		bottom: 50px;
+		right:50px;
+		border-bottom:0px solid rgb(255, 255, 255);
+		border-right:0px solid rgb(255, 255, 255);
+	}
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 300;
+    transform: translate(0, 100px);
+}
+
+span {
+    font-weight: 700;
+}
+
+p {
+    transform: translate(0,120px);
+    opacity: 0;
+}
+
+.container:hover img {
+    transform: translate(0,1px);
+    transition-timing-function: ease-in;
+}
+
+.container:hover h2 {
+    transform: translate(0,140px);
+    transition-timing-function: ease-in;
+}
+
+.container:hover p {
+    opacity: 1;
+    transform: translate(0,125px);
+}
+
+.container:hover ::after ,.container:hover ::before {
+    width: 480px;
+    border-bottom:1px solid rgb(255, 255, 255);
+	border-right:1px solid rgb(255, 255, 255);
+}

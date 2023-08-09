@@ -1,0 +1,72 @@
+body {
+    background-color: rgb(181, 105, 105);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.contenedor-principal {
+    background-color: rgb(70, 151, 124);
+    padding: 10px;
+    height: 90%;
+    color: beige;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+.contenedor-secundario {
+    background-color: bisque;
+    display: flex;
+    justify-content: space-around;
+    flex-grow: 2;
+    padding: 10px;
+}
+
+nav {
+    background-color: rgb(158, 119, 71);
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    background-color: rgb(71, 53, 30);
+    flex-grow: 4;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+aside {
+    background-color: black;
+    flex-grow: 2;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor-tercieario {
+    background-color: rgb(165, 142, 114);
+    display: flex;
+    justify-content: space-around;
+    flex-grow: 1;
+    
+}
+
+footer {
+    background-color: rgb(134, 47, 47);
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

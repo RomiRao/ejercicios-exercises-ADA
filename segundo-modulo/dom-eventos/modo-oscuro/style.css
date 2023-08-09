@@ -1,0 +1,60 @@
+body {
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: beige;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    background-color: white;
+    padding: 30px;
+    width: 80%;
+    max-width: 1000px;
+    text-align: center;
+    border-radius: 7px;
+    color: rgb(97, 79, 58);
+}
+
+h1 {
+    font-size: 30px;
+}
+
+p {
+    text-align: left;
+    font-size: 15px;
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 3px;
+    background-color: bisque;
+    color: rgb(97, 79, 58);
+    cursor: pointer;
+}
+
+i {
+    margin-right: 5px;
+}
+
+button:active {
+    background-color: transparent;
+}
+
+.modo-oscuro-body {
+    background-color: #162025;
+}
+
+.modo-oscuro-main {
+    background-color: #426887;
+    color: white;
+}
+
+.modo-oscuro-boton {
+    background-color: #174456;
+    color: white;
+}

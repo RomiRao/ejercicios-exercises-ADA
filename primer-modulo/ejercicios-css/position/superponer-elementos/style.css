@@ -1,0 +1,46 @@
+.container {
+    width: 630px;
+    height: 450px;
+    border: 1px solid;
+    padding: 10px;
+    margin: 100px auto;
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    display: inline-block;  
+    text-align: center;
+    line-height: 150px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.one {
+    background-color: darkgoldenrod;
+    position: relative; 
+    z-index: 3;
+}
+
+.two {
+    background-color: darkcyan;
+    position: relative;
+    top: 100px;
+    left: -50px;
+}
+
+.three {
+    background-color: darkolivegreen;
+    position: relative;
+    top: 200px;
+    left: -100px;
+    z-index: 3;
+}
+
+.four {
+    background-color: darkred;
+    position: relative;
+    top: 300px;
+    right: 150px;
+}

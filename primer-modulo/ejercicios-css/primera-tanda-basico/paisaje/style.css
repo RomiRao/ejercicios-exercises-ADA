@@ -1,0 +1,19 @@
+body {
+    font-size: 50px;
+}
+
+.pinos {
+    font-size: 70px;
+}
+
+.arboles {
+    font-size: 80px;
+}
+
+.edificio-mediano {
+    font-size: 100px;
+}
+
+.edificio-alto {
+    font-size: 150px;
+}

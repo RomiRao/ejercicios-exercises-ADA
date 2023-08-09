@@ -1,0 +1,24 @@
+.cuadradoGris {
+    width: 100px;
+    height: 100px;
+    background-color: lightgray;
+    position: relative;
+}
+.cuadradoRojo {
+    width: 60px;
+    height: 60px;
+    background-color: red;
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+}
+
+.cuadradoVerde {
+    width: 30px;
+    height: 30px;
+    background-color: green;
+    position: absolute;
+    left: 35px;
+    bottom: 35px;
+}
+

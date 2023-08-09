@@ -1,0 +1,69 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #E7E8EC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+article {
+    background-color: #FFFFFF;
+    width: 900px;
+    padding: 50px;
+    border-radius: 20px;
+}
+
+h2 {
+    margin: 0;
+}
+
+img {
+    width: 45px;
+}
+
+.contenidoTarjeta {
+    display: flex;
+    margin: 30px 0px;
+}
+
+h3 {
+    font-size: 15px;
+}
+
+.tarjetitas {
+    width: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.tarjeta {
+    width: 250px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.tarjetaDiferente {
+    background-color: #FFBC00;
+}
+
+aside {
+    width: 250px;
+    border: 1px solid rgb(220, 220, 220);
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+
+.tituloMasChico {
+    font-size: 17px;
+}
+
+p {
+    font-size: 12px;
+}
+
+.nombres {
+    color: #FFBC00;
+    font-weight: 700;
+}

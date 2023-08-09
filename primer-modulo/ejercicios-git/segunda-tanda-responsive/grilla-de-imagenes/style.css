@@ -1,0 +1,42 @@
+img {
+    width: 200px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+main {
+    width: 90%;
+}
+
+.images-container {
+    width: 70%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.grilla {
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 1000px) {
+
+    .images-container {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+
+@media (max-width: 640px) {
+
+    .images-container {
+        grid-template-columns: 1fr;
+    }
+}

@@ -1,0 +1,31 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+.usuario {
+    color: 3A435E;
+    text-decoration: none;
+}
+
+.fecha {
+    font-size: 17px ;
+    font-weight: 300;
+    color: gray;
+}
+
+p {
+    font-size: 23px;
+}
+
+.emote {
+    background-color: lightgray;
+    padding: 5px;
+}

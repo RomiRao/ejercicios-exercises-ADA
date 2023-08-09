@@ -1,0 +1,69 @@
+body {
+    background-color: #E7E9F2;
+}
+
+.tarjeta {
+    margin: 100px auto;
+    background-color: white;
+    width: 270px;
+    padding: 50px;
+    border-radius: 25px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    color: #242E4C;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+img {
+    width: 80px;
+}
+
+h2 {
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.titulo-tarjeta {
+    font-weight: 700;
+    font-size: 20px;
+    
+}
+
+address {
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.parrafo {
+    font-size: 13px;
+    margin: 30px;
+}
+
+.recuperacion {
+    background-color: #F7F8FC;
+    border-radius: 7px;
+    padding: 10px 40px 30px 40px;
+}
+
+.dire {
+    margin: 20px;
+}
+
+.boton {
+    padding: 5px 40px;
+    border-radius: 20px;
+    font-size: 15px;
+}
+
+.update {
+    margin-top: 30px;
+    background-color: white;
+    border: 1px solid lightgray;
+}
+
+.confirm {
+    display: inline-block;
+    margin: 40px 0 0 0;
+    background-color: #242E4C;
+    color: white;
+}

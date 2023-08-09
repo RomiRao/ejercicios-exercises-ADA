@@ -1,0 +1,55 @@
+body {
+    background-color: lightseagreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+
+main {
+    background-color: white;
+    padding: 30px;
+    height: 90%;
+    max-width: 300px;
+    max-height: 500px;
+    overflow: hidden;
+    text-align: center;
+    border-radius: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+input {
+    padding: 7px;
+    border: 1px solid lightgray;
+}
+
+button {
+    border: none;
+    padding: 5px 10px;
+    border-radius: 2px;
+    color: white;
+    cursor: pointer;
+}
+
+#boton-resta {
+    background-color: rgb(214, 109, 109);
+}
+
+#boton-suma {
+    background-color: rgb(83, 175, 83);
+}
+
+#boton-suma:active, #boton-resta:active {
+    background-color: transparent;
+    color: black;
+}
+
+ul {
+    border-top: 1px solid lightgray;
+    list-style-type: none;
+    height: 100%;
+    max-height: 400px;
+    overflow-y: scroll;
+}

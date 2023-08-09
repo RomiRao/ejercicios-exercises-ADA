@@ -1,0 +1,34 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    width: 700px;
+    padding: 40px;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+p {
+    font-size: 1em;
+}
+
+@media (max-width: 450px) {
+
+    body {
+        font-size: 10px;
+    }
+
+}

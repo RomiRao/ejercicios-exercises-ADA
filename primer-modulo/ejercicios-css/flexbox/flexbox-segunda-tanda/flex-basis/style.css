@@ -1,0 +1,20 @@
+body {
+    background-color: rgb(88, 88, 169);
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div {
+    background-color: rgb(73, 129, 177);
+    flex-grow: 1;
+    margin: 10px;
+    flex-basis: 25%;
+}
+
+.ultimo {
+    background-color: beige;
+    flex-grow: 4;
+}

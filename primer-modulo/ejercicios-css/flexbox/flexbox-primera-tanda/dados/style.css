@@ -1,0 +1,73 @@
+body {
+    background-color: #D3D3D3;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: space-between;
+}
+
+.dado {
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dado-interno {
+    width: 70%;
+    height: 70%;
+    display: flex;
+}
+
+.punto {
+    background-color: black;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+
+.punto-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dado-dos {
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.punto-down {
+    display: flex;
+    justify-content: end;
+}
+
+.dado-tres {
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.punto-up {
+    display: flex;
+    justify-content: end;
+}
+
+.dado-cuatro {
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.puntos-cuatro {
+    display: flex;
+    justify-content: space-between;
+}
+

@@ -1,0 +1,33 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #D6C8F5;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenido-encuesta {
+    background-color: #1A1832;
+    color: white;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.puntaje {
+    background-color: #282547;
+    padding: 30px;
+}
+
+.estrellas {
+    display: flex;
+    justify-content: space-between;
+}
+
+.estrellitas {
+    width: 40px;
+}

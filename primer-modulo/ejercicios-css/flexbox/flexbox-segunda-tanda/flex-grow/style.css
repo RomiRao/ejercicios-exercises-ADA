@@ -1,0 +1,16 @@
+body {
+    background-color: rgb(67, 122, 170);
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.div250 {
+    background-color: aliceblue;
+    width: 250px;
+}
+
+.div-medio {
+    background-color: bisque;
+    flex-grow: 3;
+}

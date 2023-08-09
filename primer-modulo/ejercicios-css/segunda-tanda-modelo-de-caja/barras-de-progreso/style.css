@@ -1,0 +1,53 @@
+body {
+    background-color: #ebdbdb;
+    font-family: 'Montserrat', sans-serif;
+}
+
+main {
+    background-color: white;
+    width: fit-content;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: rgba(128, 116, 116, 0.35) 0px 5px 15px;
+    margin: 100px auto;
+
+}
+
+.barra-contenedora {
+    background-color: #dbd6e3;
+    width: 500px;
+    height: 30px;
+    margin: 15px;
+    border-radius: 100px;
+    padding: 3px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.barra-interna {
+    width: 500px;
+    height: 30px;
+    background-color: #3d8e2d;
+    border-radius: 100px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 15px;
+    color: white;
+    justify-content: center;
+}
+
+#progreso10{
+    width: 50px;
+}
+
+#progreso25{
+    width: 125px;
+}
+#progreso50{
+    width: 250px;
+}
+#progreso75{
+    width: 300px;
+}
+#progreso90{
+    width: 450px;
+}

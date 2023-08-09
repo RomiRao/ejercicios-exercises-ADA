@@ -1,0 +1,40 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+    background-color: #9DB5B2;
+    
+}
+
+main {
+    width: 800px;
+    padding: 40px;
+    background-color: #D3D5D4;
+}
+
+h1 {
+    font-size: 2.5em;
+    font-weight: 800;
+}
+
+h2 {
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 1.4em;
+}
+
+p {
+    font-size: 1em;
+    font-weight: 400;
+}
+
+@media (max-width: 450px) {
+
+    body {
+        font-size: 10px;
+    }
+
+}

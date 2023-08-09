@@ -1,0 +1,47 @@
+* {
+    margin: 5px 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: lightblue;
+}
+
+form {
+    background-color: white;
+    width: 350px;
+    padding: 50px 15px;
+    margin: 15px;
+    border-radius: 7px;
+}
+
+div {
+    display: flex;
+    justify-content: space-between;
+}
+
+input, select {
+    background-color: rgb(235, 235, 235);
+    border: none;
+    padding: 13px 10px;
+    border-radius: 3px;
+    width: 100%;
+}
+
+label {
+    width: 100%;
+    margin: 5px;
+}
+
+::placeholder {
+    color: rgb(179, 178, 178);
+}
+
+button {
+    background-color: #3471DC;
+    color: white;
+    font-weight: 700;
+    border: none;
+    padding: 15px 25px;
+    border-radius: 3px;
+}

@@ -1,0 +1,59 @@
+body {
+    background-color: #273C56;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+.tarjeta-statics {
+    background-color: #152436;
+    width: 755px;
+    border-radius: 7px;
+    padding: 40px ;
+}
+
+.titulo-resultados {
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.estadisticas {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-estadisticas {
+    margin: 20px;
+}
+
+.valor-estadisticas {
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.texto-estadisticas {
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.pie-tarjeta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.texto-pie {
+    font-size: 10px;
+    font-weight: 300;
+}
+
+a {
+    text-decoration: none;
+}

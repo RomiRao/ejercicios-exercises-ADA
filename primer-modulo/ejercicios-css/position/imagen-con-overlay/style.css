@@ -1,0 +1,59 @@
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+figure {
+    width: 900px;
+    position: relative;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    width: 100%;
+    opacity: 0.85;
+    transition: opacity 0.5s;
+}
+
+div {
+    position: absolute;
+    top: 45px;
+    left: 80px;
+    text-align: center;
+    color: white;
+    padding: 160px 200px;
+    border: 1px solid transparent;
+    transition: border 0.5s;
+}
+
+h1 {
+    font-size: 60px;
+    transform: translate(0, -40px);
+    transition: transform 0.5s;
+}
+
+p {
+    transform: translate(0,40px);
+    opacity: 0;
+    transition: opacity, transform, 0.5s;
+}
+
+figure:hover h1 {
+    transform: translate(0, 25px);
+}
+
+figure:hover p {
+    transform: translate(0, -5px);
+    opacity: 1;
+}
+
+figure:hover img {
+    opacity: 0.5;
+    transition: opacity 0.5s;
+}
+
+figure:hover div {
+    border: 1px solid white;
+}

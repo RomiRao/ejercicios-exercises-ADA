@@ -1,0 +1,50 @@
+body {
+    background-color: #7DDAC6;
+    margin: 0;
+}
+
+header {
+    background-color: #4988C1;
+    margin: 0;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.fa-solid {
+    color: white;
+}
+
+i {
+    font-size: 50px;
+}
+
+.fa-bars, .fa-ellipsis-vertical {
+    color: #8CB7D8;
+}
+
+.notiContainer {
+    display: flex;
+}
+
+.notificaciones {
+    margin: 0 15px;
+    padding: 8px 13px;
+    position: relative;
+}
+
+.numero {
+    background-color: #DE5B4D;
+    padding: 1px;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    color: white;
+    margin: 0;
+    clip-path: circle(50%);
+    font-size: 15px;
+    position: absolute;
+    top: 2px;
+    right: 0;
+}

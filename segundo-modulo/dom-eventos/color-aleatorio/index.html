@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color aleatorio</title>
+</head>
+<body id="body" style="display: flex; justify-content: center; align-items: center; height: 100vh; padding: 0; margin: 0;">
+    <div style="width: 300px; height: 150px; background-color: white;">
+        <h3 id="titulo-color"></h3>
+    </div>
+    <script>
+        const body = document.getElementById('body');
+        const titulo = document.getElementById('titulo-color');
+
+        const obtenerColorAleatorio = (event) => {
+            if(event.code === "Space") {
+                let red = Math.floor(Math.random()*255);
+            let green = Math.floor(Math.random()*255);
+            let blue = Math.floor(Math.random()*255);
+            body.style.backgroundColor = `rgb(${red}, ${green}, ${blue})`;
+                titulo.innerText = `rgb(${red}, ${green}, ${blue})`;
+            } else {
+                return false
+            }
+        };
+
+        document.addEventListener('keypress', (e) => obtenerColorAleatorio(e));
+
+
+    </script>
+</body>
+</html>

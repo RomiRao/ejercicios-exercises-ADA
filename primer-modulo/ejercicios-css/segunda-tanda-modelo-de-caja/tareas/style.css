@@ -1,0 +1,41 @@
+body {
+    background-color: #017ABF;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-weight: 700;
+    color: white;
+    font-size: 27px;
+    margin: 30px;
+    
+}
+
+.completo {
+    margin-top: 0;
+    font-size: 20px;
+}
+
+.tareas-completadas {
+    margin: 20px;
+    background-color: #E3E5E6;
+    width: 380px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.tareashechas {
+    font-size: 20px;
+    margin: 10px 0;
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+
+.opcion-aniadir {
+    font-size: 20px;
+    color: gray;
+    padding: 0 10px ;
+    margin-bottom: 0;
+}

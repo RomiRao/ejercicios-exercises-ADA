@@ -1,0 +1,52 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.temp-extrema {
+    font-weight: 700;
+}
+
+#temp-0 {
+    background-color:#0365FF ;
+}
+
+#temp-5 {
+    background-color: #01CCFF;
+}
+
+#temp-10 {
+    background-color: #01CCFF;
+}
+
+#temp-15 {
+    background-color: #D1F7FC;
+}
+
+#temp-20 {
+    background-color:#D1F7FC ;
+}
+
+#temp-25 {
+    background-color:#FFFF68;
+}
+
+#temp-30 {
+    background-color: #FFFF68;
+}
+
+#temp-35 {
+    background-color:#FF9935;
+}
+
+#temp-40 {
+    background-color: #dc4f20;
+}
+
+#temp-45 {
+    background-color: #dc3020;
+}
+
+#temp-50 {
+    background-color:#FF3200;
+}
+

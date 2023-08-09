@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    background-color: lightcoral;
+}
+
+main {
+    background-color: white;
+    padding: 40px;
+    border-radius: 3px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h3 {
+    color: rgb(100, 26, 68);
+}
+
+p {
+    font-weight: 300;
+    color: gray;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    background-color: rgb(255, 141, 158);
+    color: white;
+    cursor: pointer;
+}
+
+button:active {
+    background-color: lightpink;
+}

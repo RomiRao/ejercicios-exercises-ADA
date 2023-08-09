@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(9, 10, 44);
+    flex-direction: column;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.peliculas-container {
+    width: 100%;
+    max-width: 900px;
+    min-height: 450px;
+    padding: 5px;
+    flex-wrap: wrap;
+    background-color: rgb(129, 132, 201);
+    border-radius: 5px;
+    margin: 30px;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.pelicula {
+    height: 200px;
+    margin: 5px;
+}
+
+.button-container {
+    margin: 10px;
+}
+
+.button {
+    background-color: rgb(129, 132, 201);
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+    color: white;
+    cursor: pointer;
+}
+
+.button:active {
+    background-color: white;
+    color: rgb(129, 132, 201);;
+}
+
+.hidden {
+    display: none;
+}

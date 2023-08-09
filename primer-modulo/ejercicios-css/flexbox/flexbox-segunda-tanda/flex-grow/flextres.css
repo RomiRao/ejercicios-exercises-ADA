@@ -1,0 +1,20 @@
+body {
+    background-color: lavender;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div {
+    margin: 10px;
+}
+
+.primero {
+    background-color: lawngreen;
+    flex-grow: 2;
+}
+
+.restantes {
+    background-color: lightcoral;
+    flex-grow: 1;
+}

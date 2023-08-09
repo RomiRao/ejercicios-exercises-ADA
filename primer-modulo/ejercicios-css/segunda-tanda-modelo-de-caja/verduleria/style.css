@@ -1,0 +1,45 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #A5D6A7;
+}
+
+main {
+    text-align: center;
+    background-color: #F7F7FC;
+    width: 300px;
+    height: 350px;
+    padding: 15px;
+    margin-left: 600px;
+    margin-top: 200px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+p {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: grey;
+}
+
+h1 {
+    font-weight: 600;
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+.fruta {
+    background-color: white;
+    margin: 15px;
+    padding: 5px;
+    border-radius: 20px;
+    width: 150px;
+    font-size: 15px;
+    font-weight: 300;
+    border: 1px solid lightgray
+}
+
+section {
+    margin-top: 40px;
+    margin-inline-start: 50px;
+    margin-inline-end: 50px;
+}

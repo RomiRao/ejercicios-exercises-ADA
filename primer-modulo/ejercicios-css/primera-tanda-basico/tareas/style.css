@@ -1,0 +1,36 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 20px;
+    color: grey;
+}
+
+h3 {
+    font-size: 15px;
+}
+
+span {
+    font-size: 13px;
+}
+
+.pendiente {
+    background-color: rgb(59, 59, 163);
+}
+
+.haciendo {
+    background-color: rgb(208, 158, 65);
+}
+
+.hecha {
+    background-color: rgb(75, 143, 75);
+}
+
+.cancelada {
+    background-color: rgb(148, 54, 54);
+}

@@ -1,0 +1,77 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    background-color: #EAEBEC;
+}
+
+img {
+    width: 600px;
+}
+
+.product-card {
+    width: 450px;
+    background-color: white;
+}
+
+figcaption {
+    padding: 20px 50px 40px;
+}
+
+.image-ex {
+    width: 100%;
+}
+
+.image-disc {
+    position: relative;
+}
+
+.span-disc {
+    padding: 8px 10px;
+    border-radius: 5px;
+    position: absolute;
+    color: white;
+}
+
+.envio {
+    top: 13px;
+    left: 13px;
+    background-color: blue;
+}
+
+.disc {
+    top: 54px;
+    left: 13px;
+    background-color: green;
+}
+
+.fa-heart {
+    color: red;
+    position: absolute;
+    font-size: 30px;
+    top: 13px;
+    right: 15px;    
+}
+
+.product-description {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+}
+
+h3 {
+    font-size: 27px;
+    margin: 20px 0;
+}
+
+.precio {
+    color: green;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+p {
+    margin-top: 0;
+    font-size: 18px;
+    color: rgb(155, 154, 154);
+}
